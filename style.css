@@ -1,0 +1,247 @@
+#log-in_text {
+    text-align : center;
+    margin-top : 180px;
+    font-size : 50px;
+}
+
+.log-in_box {
+    height : 50px;
+    width : 350px;
+    margin-top : 15px;
+    display : block;
+    margin : 0 auto;
+    font-size : 17px;
+    border : 1px solid gray;
+    padding-left : 14px;
+    border-radius : 68px;
+    box-sizing : border-box;
+}
+.log-in_BUTTON {
+    height : 50px;
+    width : 350px;
+    margin-top : 2px;
+    display : block;
+    margin : 0 auto;
+    font-size : 17px;
+    border : 0px;
+    background-color : black;
+    color : white;
+    border-radius : 7px;
+}
+.log-in_BUTTON:hover {
+    opacity : 0.2;
+}
+
+.gor {
+    font-family: "Grandiflora One", cursive;
+}
+
+.smr {
+    font-family: "Song Myung", serif;
+}
+
+#title {
+    font-family : 'Courier New';
+    text-align : center;
+    font-size : 50px;
+}
+
+nav ul {
+    display : flex;
+    list-style : none;
+    justify-content : center;
+}
+nav {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    background-color : gray;
+    padding : 0px 0px;
+    z-index : 1000;
+    justify-content : center;
+    align-items : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    opacity : 0.8;
+}
+nav ul li {
+    margin : 0 40px;
+    margin-right : 150px;
+    margin-left : 120px;
+}
+nav ul li a {
+    text-decoration : none;
+    color : black;
+}
+
+#searching {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+#searching input {
+    width : 50%;
+    height : 50px;
+    border : 1px solid #ccc;
+    border-right : none;
+    border-radius : 30px 0 0 30px;
+    font-size : 20px;
+    box-sizing : border-box;
+    padding-left : 14px;
+}
+#searching input::placeholder {
+    color : gray;
+}
+#searching button {
+    background-color :#2c2727;
+    color : white;
+    height : 50px;
+    padding : 0 20px;
+    border : 1px solid #ccc;
+    border-left : none;
+    border-radius : 0 30px 30px 0;
+    cursor : pointer;
+    opacity : 1.0;
+    font-size : 30px;
+}
+#searching button:hover {
+    opacity : 0.4;
+}
+
+#horizon {
+    margin-top : 40px;
+}
+
+#recommendation_text {
+    font-size : 50px;
+    margin-top : 100px;
+    margin-left : 200px;
+}
+.recommendation-img {
+    margin-left : 200px;
+}
+.recommendation-img img {
+    width : 200px;
+    height : 200px;
+    border-radius : 20px;
+    border : solid rgba(255, 255, 255, 0.711) 2px;
+}
+.recommendation-img img:hover {
+    opacity : 0.6;
+}
+
+
+#log-in_text {
+    text-align : center;
+    margin-top : 180px;
+    font-size : 50px;
+}
+
+.log-in_box {
+    height : 50px;
+    width : 350px;
+    margin-top : 15px;
+    display : block;
+    margin : 0 auto;
+    font-size : 17px;
+    border : 1px solid gray;
+    padding-left : 14px;
+    border-radius : 68px;
+    box-sizing : border-box;
+}
+.log-in_BUTTON {
+    height : 50px;
+    width : 350px;
+    margin-top : 2px;
+    display : block;
+    margin : 0 auto;
+    font-size : 17px;
+    border : 0px;
+    background-color : black;
+    color : white;
+    border-radius : 7px;
+}
+.log-in_BUTTON:hover {
+    opacity : 0.2;
+}
+
+body {
+    background-color : white;
+}
+
+.gor {
+    font-family: "Grandiflora One", cursive;
+}
+
+.result-li{
+    list-style : none;
+    display : flex;
+    margin-bottom : 50px;
+    margin-left : 70px;
+}
+
+.result-image {
+    width : 170px;
+    height : 170px;
+    border-radius : 12px;
+    margin-right : 30px;
+}
+.result-title {
+    text-align : center;
+    margin-top : 52px;
+    font-size : 29px;
+}
+
+#result-text {
+    text-align : center;
+    padding-top : 5px;
+    padding-bottom : 45px;
+}
+
+#searching {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+#searching input {
+    width : 50%;
+    height : 50px;
+    border : 1px solid #ccc;
+    border-right : none;
+    border-radius : 30px 0 0 30px; /* 왼쪽만 둥글게 */
+    font-size : 20px;
+    box-sizing : border-box;
+    padding-left : 14px;
+}
+#searching input::placeholder {
+    color : gray;
+}
+#searching button {
+    background-color :#2c2727;
+    color : white;
+    height : 50px;
+    padding : 0 20px;
+    border : 1px solid #ccc;
+    border-left : none;
+    border-radius : 0 30px 30px 0; /* 오른쪽만 둥글게 */
+    cursor : pointer;
+    opacity : 1.0;
+    font-size : 30px;
+}
+#searching button:hover {
+    opacity : 0.4;
+}
+
+#logo {
+    text-decoration : none;
+}
+#logo:visited {
+    color : black;
+}
+#logo p {
+    margin-left : 50px;
+    font-size : 50px;
+    margin-top : 0;
+}

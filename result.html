@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>검색 결과</title>
+
+    <script src="javascript.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Song+Myung&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div>
+        <a href = "main.html" class = "gor" id = "logo"><p>comment</p></a>
+    </div>
+
+    <h1 id = "result-text">검색 결과</h1>
+    
+    <div id = "searching">
+        <input type = "text" placeholder = "검색어 입력" id = "search-keyword" autocomplete = "off">
+        <button type = "submit" onclick = "search()" id = "search-button">🔍</button>
+    </div>
+    
+    <br><hr><br>
+    <ul id="resultList"></ul>
+</body>
+</html>
